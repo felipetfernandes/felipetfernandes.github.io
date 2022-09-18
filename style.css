@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@600;700;800&family=Quicksand:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Quicksand;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(70, 70, 70);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+
+span {
+    color: #1030ee;
+    font-size: 32px;
+}
+
+h1 {
+    font-family: Lexend;
+    font-size: 50px;
+}
+
+p {
+    letter-spacing: 8px;
+}
+
+img {
+    height: 30px;
+}
+
+.wrapper {
+    background-color: black;
+    background-image: url(images/global-network.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 110% 20px;
+    border-radius: 40px;
+    width: 70%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 2% 5%;
+}
+
+.text {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+}
+
+.blue-text {
+    color: #1030ee;
+    letter-spacing: 8px;
+}
+
+.imgs {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
